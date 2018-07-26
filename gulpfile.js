@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var litecoreTasks = require('litecore-build');
+var schoolcoreTasks = require('schoolcore-build');
 
-litecoreTasks('p2p', {skipBrowser: true});
+schoolcoreTasks('p2p', {skipBrowser: true});
 
 gulp.task('default', ['lint', 'coverage']);

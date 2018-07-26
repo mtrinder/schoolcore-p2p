@@ -1,4 +1,4 @@
-var litecore = require('litecore-lib');
-litecore.P2P = require('./lib');
+var schoolcore = require('schoolcore-lib');
+schoolcore.P2P = require('./lib');
 
-module.exports = litecore.P2P;
+module.exports = schoolcore.P2P;
